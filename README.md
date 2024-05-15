@@ -18,7 +18,7 @@ The goal is to showcase how to monitor and visualize metrics from the MauiAppCli
 1. Clone o download this repository:
 
    ```bash
-   git clone https://github.com/milocko07/maui-signalr-opentelemetry
+   git clone https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/
 2. Optionally configure prometheus.yml that you have downloaded from [Prometheus](https://prometheus.io/download/) web page with your custom configuration (port and times). [This is](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/blob/main/prometheus.yml) a copy of the one that is used in this project.
 3. Run prometheus.exe file from the same folder that you have downloaded from the web page.
 4. Open and Run [SignalRServer](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/tree/main/SignalRServer) project.
