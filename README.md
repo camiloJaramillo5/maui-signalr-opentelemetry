@@ -25,11 +25,14 @@ The goal is to showcase how to monitor and visualize metrics from the MauiAppCli
 5. Open, configure SignalRServer URL and run [ConsoleClientApp](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/tree/main/ConsoleAppClient) sender project.
 6. Open, configure SignalRServer URL and run [MauiAppClient](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/tree/main/MauiAppClient) receiver project
 7. You should see similar next results:
-  <img width="765" alt="image" src="https://github.com/milocko07/maui-signalr-opentelemetry/assets/37205551/59cde85b-6cb9-45a0-8d18-e0bccf700368">
-  <img width="564" alt="image" src="https://github.com/milocko07/maui-signalr-opentelemetry/assets/37205551/52c1a12d-3e3d-4bdf-a533-9ad6d99eee07">
-  <img width="275" alt="image" src="https://github.com/milocko07/maui-signalr-opentelemetry/assets/37205551/21ab37a4-9e1d-4399-92d7-6ee87acad034">
-  <img width="959" alt="image" src="https://github.com/milocko07/maui-signalr-opentelemetry/assets/37205551/b4bb55ff-9956-4dd1-af04-3fb07e1dd1ee">
+
+![image](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/assets/80411997/f1a14932-4eef-42e8-bf6d-bf08001067a4)
+![image](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/assets/80411997/067a85e1-8eca-4337-b297-92c1d5fdea2b)
+![image](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/assets/80411997/d1a5ccae-dd53-426a-b584-c0427998e15d)
 
 8. And now you should see the telemetry data flowing through Prometheus http://localhost:9090/targets?search and Grafana http://localhost:3000/explore? urls:
-  <img width="957" alt="image" src="https://github.com/milocko07/maui-signalr-opentelemetry/assets/37205551/1833ea08-73dc-45c7-a69e-1e1d36ccf44f">
-  <img width="956" alt="image" src="https://github.com/milocko07/maui-signalr-opentelemetry/assets/37205551/b1bc9604-830e-4574-9e2d-6d4a8ccf2c0f">
+  
+  ![image](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/assets/80411997/0bf5abb0-ba1d-41f6-afde-3141a4eb76b5)
+
+  ![image](https://github.com/camiloJaramillo5/maui-signalr-opentelemetry/assets/80411997/e6bef914-2ebd-45c1-94b9-858776968afc)
+
